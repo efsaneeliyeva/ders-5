@@ -1,0 +1,341 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: white;
+    border: 3px solid red;
+    margin: auto;
+    width: 800px;
+    height: 600px;
+    position: relative;
+    
+}
+.item{
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    font-size: 30px;
+    padding-left:100px ;
+    padding-top: 20px;
+}
+.item:nth-child(2){
+    background-color: rgb(84, 84, 234);
+}
+.item:nth-child(1){
+    background-color: aqua;
+    position: absolute;
+    top: 70px;
+}
+.item:nth-child(3){
+    background-color: brown;
+}
+.item:nth-child(4){
+    background-color:blueviolet;
+}
+
+.class{
+    background-color: white;
+    border: 3px solid red;
+    margin: auto;
+    width: 800px;
+    height: 700px;
+    
+}
+.class div{
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    font-size: 30px;
+    padding-left:100px ;
+    padding-top: 10px;
+    position: relative;
+}
+.class div:nth-child(2){
+    background-color: rgb(84, 84, 234);
+    margin-top: 30px;
+}
+.class div:nth-child(1){
+    background-color: aqua;
+    position: relative;
+    right: 100px;
+    top: 20px
+}
+.class div:nth-child(3){
+    background-color: brown;
+}
+.class div:nth-child(4){
+    background-color:blueviolet;
+}
+div li{
+    font-size: 20px;
+}
+div input{
+    width: 200px;
+    height: 20px;
+}
+
+div button{
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    height: 20px;
+    width: 50px;
+}
+
+.class2 {
+    width: 100%; 
+    display: flex;
+    flex-direction: column; 
+}
+
+header {
+    background-color:blue;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+main {
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+    color: white;
+    height: 500px;
+    width: 100%;
+}
+.section1 {
+    background-color: yellowgreen;
+    flex-grow: 1;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    width: 500px;
+}
+.section2 {
+    padding: 20px;
+    background-color: orange;
+    flex-grow: 2;
+    display: flex;
+    gap: 10px;
+    text-align: center;
+}
+.image {
+    margin: 40px;
+    padding: 10px;
+    background-color: #848080;
+    width: 150px; 
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    gap: 10;
+}
+footer {
+    background-color: red;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.container2 {
+    border: 5px solid grey;
+    width: 700px;
+    height: 400px;
+    padding: 10px;
+    position: relative;
+}
+
+.target {
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 20px;
+    top: 10px;
+    left: 70%;
+    height: 200px;
+    width: 200px;
+    background-color:blueviolet;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    position: absolute;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.text {
+    padding: 0 0;
+    font-size: 30px;
+    color: black;
+    z-index: 1;
+}
+
+.text5 header{
+    background-color: green;
+    text-align: center;
+    color: white;
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    font-size: 30px;
+}
+.text5 section{
+    background-color: green;
+    color: white;
+    display: inline-block;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    text-align: center;
+    width: 400px;
+    height: 300px;
+    margin: 1%;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 25px 25px;
+    justify-content: center;
+    align-content: space-between;
+    font-size: 30px;
+}
+.text5 footer{
+    background-color: green;
+    text-align: center;
+    color: white;
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    font-size: 30px;
+}
+.group{
+    margin: 1%;
+    height: 800px;
+    width: 50%;
+
+}
+.case{
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin: 5px;
+    justify-content: center;
+}
+.case:nth-child(1){
+    color: green;
+}
+.case:nth-child(2){
+    background-color: red;
+    color: red;
+}
+.case:nth-child(3){
+    background-color: blue;
+    color: blue;
+}
+.case:nth-child(4){
+    background-color: green;
+    color: green;
+}
+.case:nth-child(5){
+    background-color: red;
+    color: red;
+}
+.case:nth-child(6){
+    background-color: orange;
+    color: orange;
+}
+.case:nth-child(7){
+    background-color: green;
+    color: green;
+}
+.case:nth-child(8){
+    background-color: violet;
+    color: violet;
+}
+.case:nth-child(9){
+    background-color: green;
+    color: green;
+}
+.home{
+    width: 400px;
+    border: 2px solid blue;
+    height: 300px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    position: relative;
+    padding: 25px;
+}
+.homes1{
+    border: 3px solid red;
+width: 150px;
+height: 100px;
+background-color: white;
+top: 10%;
+left: 10%;
+position: absolute;
+padding: 15px;
+}
+.homes2{
+    border: 3px solid blueviolet;
+    width: 120px;
+    height: 110px;
+    position: absolute;
+    background-color: white;
+    bottom: 30%;
+    right: 40%;
+    padding: 15px;
+}
+.homes3{
+    border: 3px solid green;
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    bottom: 5%;
+    left: 10%;
+    background-color: white;
+    padding: 15px;
+
+}
+.homes4{
+    border: 3px solid yellow;
+    width: 80px;
+    height: 200px;
+    position: absolute;
+    top: 10%;
+    left: 70%;
+    background-color: white;
+    padding: 15px;
+}
